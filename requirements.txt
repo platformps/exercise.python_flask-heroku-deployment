@@ -82,7 +82,6 @@ six==1.14.0
 sortedcontainers==2.2.2
 systemd-python==234
 tesserocr==2.5.1
-tifffile==2020.10.1
 tqdm==4.50.2
 ubuntu-advantage-tools==20.3
 ubuntu-drivers-common==0.0.0
