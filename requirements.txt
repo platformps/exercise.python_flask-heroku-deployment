@@ -83,7 +83,6 @@ sortedcontainers==2.2.2
 systemd-python==234
 tesserocr==2.5.1
 tqdm==4.50.2
-ufw==0.36
 unattended-upgrades==0.1
 urllib3==1.25.8
 usb-creator==0.3.7
