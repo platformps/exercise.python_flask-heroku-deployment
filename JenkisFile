@@ -1,0 +1,17 @@
+// Powered by Infostretch 
+
+timestamps {
+
+node () {
+
+	stage ('Flask_Sample - Checkout') {
+ 	 checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '', url: 'https://github.com/kg0529/exercise.python_flask-heroku-deployment.git']]]) 
+	}
+	stage ('Flask_Sample - Build') {
+ 			// Batch build step
+bat """ 
+python web.py 
+ """ 
+	}
+}
+}
