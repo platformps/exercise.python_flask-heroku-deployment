@@ -9,7 +9,7 @@ node () {
 	}
 	stage ('Flask_Sample - Build') {
  	
-        powershell label: '', script: 'python web.py'
+     powershell label: '', script: 'python web.py'
 	}
 }
 }
