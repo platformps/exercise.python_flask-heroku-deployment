@@ -10,7 +10,7 @@ node () {
 	stage ('flask_python - Build') {
  			// Shell build step
 sh """ 
-python3 web.py 
+python web.py 
  """ 
 	}
 }
