@@ -7,7 +7,6 @@
 * Install `Flask`
     * `python -m pip install Flask`
 
-## hello
 
 ### How to run this
 * Upon executing `python web.py`, navigate to `localhost:8080` to view the webpage.
